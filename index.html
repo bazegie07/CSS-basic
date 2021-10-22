@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
 
     <style>
-
-        body{
-            margin: 0;  
+        body {
+            margin: 0;
             font-family: "Source Sans Pro";
         }
-        .header{
+
+        .header {
             padding: 0 45px 0 45px;
-            background-color:#303c99;
+            background-color: #303c99;
             color: #fff;
             display: flex;
             justify-content: space-between;
@@ -28,13 +30,15 @@
 
         .nav a {
 
-            color:#fff;
+            color: #fff;
             text-decoration: none;
+            display: block;
+            transition: all 0.2s ease-out;
         }
 
         .nav a:hover {
-            color:#c5cae9;
-            transform: rotate(6deg);
+            color: #c5cae9;
+            transform: rotate(10deg);
         }
 
 
@@ -43,13 +47,19 @@
             list-style: none;
             margin: 0;
             padding: 0;
-            display: flex;    
+            display: flex;
         }
 
         .nav li {
             margin-left: 20px;
         }
 
+        /* HERO CSS */
+
+        .hero {
+            background-color: #c5cae9;
+            padding: 60px 45px;
+        }
     </style>
 
 
@@ -64,5 +74,15 @@
             <li><a href="#">About</a></li>
         </ul>
     </div>
+
+    <div class="hero">
+        <h1>Welcome To Our Site</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem totam id nulla facere eligendi incidunt,
+            aperiam magni cum quisquam est eos voluptate dolor fugiat corporis pariatur rerum, asperiores quos
+            excepturi.</p>
+        <a href="#">Learn More</a>
+    </div>
+
 </body>
+
 </html>
